@@ -1,0 +1,19 @@
+h1 {
+    position:static;
+    text-align: center;
+}
+
+.galeria {
+    display: flexbox;
+}
+
+.imagen-galeria {
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
